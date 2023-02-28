@@ -1,0 +1,49 @@
+//design colors
+html,
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.color-name {
+  color: gray;
+  font-size: 30px;
+  opacity: 0.3;
+}
+
+.card {
+  box-shadow: 36.3636px 36.3636px 181.818px rgba(0, 0, 0, 0.1);
+  border-radius: 1.5rem;
+  background: #fff;
+  margin: 3rem;
+}
+
+.card-content {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.card-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.color-circle {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+}
+
+.active-color {
+  background-color: var(--color-active);
+}
+
+.primary-color {
+  background-color: var(--color-primary);
+}
+@import "./colors.scss";
+@import "./buttons.scss";
+@import "./header.scss";
+@import "./hero.scss";

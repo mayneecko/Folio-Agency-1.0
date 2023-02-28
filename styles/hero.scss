@@ -1,0 +1,29 @@
+.hero-title {
+  font-weight: 700;
+  font-size: 5.25rem;
+}
+
+.hero-description {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.hero-left {
+  width: 33%;
+}
+
+.hero {
+  display: flex;
+  padding: 0px 135px;
+  align-items: center;
+}
+
+.hero-description {
+  margin-top: 22px;
+  font-weight: 400;
+  color: #606060;
+}
+
+.hero-button {
+  background: #5468e7;
+}

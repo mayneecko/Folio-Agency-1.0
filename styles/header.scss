@@ -1,0 +1,25 @@
+.main-header {
+  padding: 4rem 4.5rem 5.88rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-navigation {
+  flex-grow: 1;
+}
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.nav li {
+  padding: 2rem;
+  font-weight: 900;
+  color: #8b8b8b;
+  display: flex;
+}
+.nav li:hover {
+  color: #5468e7;
+}
