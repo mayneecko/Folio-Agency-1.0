@@ -6,6 +6,7 @@
 .hero-description {
   font-weight: 400;
   font-size: 18px;
+  line-height: 32px;
 }
 
 .hero-left {
@@ -22,8 +23,15 @@
   margin-top: 22px;
   font-weight: 400;
   color: #606060;
+  margin-bottom: 0;
 }
 
 .hero-button {
   background: #5468e7;
+  margin-top: 68px;
+}
+.hero-background {
+  background-image: url("../images/hero-background.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
 }
