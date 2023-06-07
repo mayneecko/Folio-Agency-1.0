@@ -3,11 +3,16 @@
   // padding: 4.5rem 0;
   display: flex;
   justify-content: center;
+  background-image: url(/images/black-background.svg),
+    url(/images/white-bar1.svg);
+  background-repeat: no-repeat, repeat-x;
+  background-position: right top, left top;
 }
 .who-we-are-title {
   color: var(--color-white);
   font-size: 4rem;
   margin: auto;
+  max-width: 600px;
 }
 .gray-number {
   color: var(--color-gray);
@@ -89,4 +94,8 @@
   // position: absolute;
   // border: solid;
   // border-color: var(--color-white);
+}
+
+.second-hero-background {
+  margin-left: 5rem;
 }
